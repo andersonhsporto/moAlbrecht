@@ -131,6 +131,24 @@ body{
         display: block;
         text-align: center;
     }
+    /* Safari 7.1+ */
+_::-webkit-full-page-media, _:future, :root .safari_only {
+  .safari-fix table tr {
+    display: block;
+    width: 100%;
+  }
+}
+    
+
+/* Safari 10.1+ */
+@media not all and (min-resolution:.001dpcm) { 
+  @media {
+    .safari-fix table tr {
+      display: block;
+      width: 100%;
+    }
+  }
+}
 }
 </style>
 
