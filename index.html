@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cálculo de Materia Organica Albrecht</title>
+    <title>Cálculo de Matéria Organica Albrecht</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
@@ -38,12 +38,12 @@ body{
     width: 100%;
     max-width: 100%;
     white-space: nowrap;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
 .fl-table td, .fl-table th {
     text-align: center;
-    padding: 8px;
+    padding: 5px;
     width: 5%;
 }
 
@@ -64,7 +64,7 @@ body{
 }
 
 .fl-table tr:nth-child(even) {
-    background: #F8F8F8;
+    background: #ffffff;
 }
 
 /* Responsive */
@@ -73,6 +73,7 @@ body{
     .fl-table {
         display: block;
         width: 100%;
+        overflow-x: auto; 
     }
     .table-wrapper:before{
         content: "Scroll horizontally >";
@@ -149,13 +150,13 @@ body{
         </thead>
         <tbody>
         <tr>
-            <td>Matéria orgânica</td>
+            <td style="width:5%">Matéria orgânica</td>
             <td></div>
-              <div style= "width: 175px; overflow-x: auto" class="form-group">
+              <div class="form-group">
                 <input type="number" class="form-control" id="MO_analise" placeholder="% Análise">
                 
               </div></td>           
-            <td><div class="form-group" style= "width:175px";>
+            <td><div class="form-group">
               <input type="number" class="form-control" id="MO_ideal" placeholder="% Ideal">
               
             </div></td>
