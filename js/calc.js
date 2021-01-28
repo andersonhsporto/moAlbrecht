@@ -2,10 +2,10 @@ $(function(){
     $('#calc').click(function(){
         const milhas = parseFloat($('#MO_analise').val());
         const mo_ideal = parseFloat($('#MO_ideal').val());
-        const metros_ = mo_ideal - milhas +"%";
-        const metros = metros_.toString().replace(".", ",");
+        const metros_ = mo_ideal - milhas;
+        const metros = metros_.toString().replace(".", ",") +" %";
         const metros2 = mo_ideal + milhas +" %";
-        const ppmd_ = (mo_ideal - milhas) * 10000 + " ppm";
+        const ppmd_ = (mo_ideal - milhas) * 10000 + " ppm"
         const ppmd = ppmd_.toString().replace(".", ",");
         const kghade_ = ((mo_ideal - milhas) * 2 * 10000);
         const kghade = kghade_.toString().replace(".", ",")+ " kg/ha de M.O.";
@@ -15,4 +15,3 @@ $(function(){
         
     })
 })
-
