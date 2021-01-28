@@ -7,7 +7,7 @@ $(function(){
         const metros2 = mo_ideal + milhas +" %"
         const ppmd_ = (mo_ideal - milhas) * 10000 + " ppm"
         const ppmd = ppmd_.toString().replace(".", ",");
-        const kghade_ = ((mo_ideal - milhas) * 2 * 10000) + " kg/ha de M.O."
+        const kghade_ = ((mo_ideal - milhas) * 2 * 10000) + " kg/ha"
         const kghade = kghade_.toString().replace(".", ",");
         $('#metros').val(metros)
         $('#ppmd').val(ppmd)
