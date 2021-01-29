@@ -11,6 +11,5 @@ $(function(){
         $('#defitt').val(defitt)
         $('#ppmd').val(ppmd)
         $('#kghade').val(kghade)
-        
     })
 })
