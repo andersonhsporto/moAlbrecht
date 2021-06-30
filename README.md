@@ -1,2 +1,2 @@
 # moAlbrecht
-Site com exemplo do cálculo de adubação utilizando matéria organica seguindo os princípios propostos pelo Prof. Dr. Willian Albrecht.
+Site with example of the recommendation of fertilization using organic matter following the principles proposed by Prof. Dr. Willian Albrecht.
